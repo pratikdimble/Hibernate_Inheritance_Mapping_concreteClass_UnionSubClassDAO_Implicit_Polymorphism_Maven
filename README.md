@@ -1,0 +1,1 @@
+# Hibernate_Inheritance_Mapping_concreteClass_UnionSubClassDAO_Implicit_Polymorphism_Maven
