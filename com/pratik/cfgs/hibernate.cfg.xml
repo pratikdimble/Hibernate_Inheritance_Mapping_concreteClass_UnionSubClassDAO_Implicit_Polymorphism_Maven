@@ -15,8 +15,11 @@
 			<property name="format_sql">true</property>
 			<property name="hbm2ddl.auto">update</property>
 			<property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+	
+			<!-- hibernate c3p0 connection pooling configuration  -->
 			
-			 <property name="hibernate.c3p0.min_size">5</property>
+	<property name="connection.provider_class"  value="org.hibernate.connection.C3P0ConnectionProvider"/>
+	<property name="hibernate.c3p0.min_size">5</property>
   <property name="hibernate.c3p0.max_size">20</property>
   <property name="hibernate.c3p0.timeout">300</property>
   <property name="hibernate.c3p0.max_statements">50</property>
